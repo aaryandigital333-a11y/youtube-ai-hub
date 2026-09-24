@@ -1,0 +1,18 @@
+youtube-ai-hub/
+│
+├── .env.example            # Environment variables (API Keys)
+├── .gitignore              # Files to ignore (e.g., .env, venv, output files)
+├── README.md               # Complete Project Documentation & Guide
+├── requirements.txt        # Python dependencies
+│
+├── config/
+│   └── settings.py         # Config settings & model definitions
+│
+├── src/
+│   ├── __init__.py
+│   ├── script_generator.py # Generates video scripts using Gemini API
+│   ├── summarizer.py       # Summarizes YouTube videos using Transcript
+│   ├── tts_engine.py       # Converts script to voiceover audio
+│   └── youtube_upload.py   # Uploads video directly to YouTube (API v3)
+│
+└── main.py                 # CLI / Main entry point to run the tools
